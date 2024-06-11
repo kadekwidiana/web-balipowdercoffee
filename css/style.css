@@ -225,12 +225,6 @@ button {
     background-size: 100%;
 }
 
-@media (max-width: 768px) {
-    .header_section {
-        padding: 0px 10px 0px 40px;
-    }
-}
-
 .bg-light {
     background-color: transparent !important;
 }
@@ -1034,4 +1028,39 @@ a:hover {
 
 .margin_top90 {
     margin-top: 90px;
+}
+
+@media (max-width: 768px) {
+    .header_section {
+        padding: 0px 10px 0px 40px;
+    }
+
+    .coffee_text_logo {
+        width: 100%;
+        float: left;
+        font-size: 20px;
+        color: #fdfcfa;
+        font-weight: bold;
+        padding-bottom: 0px;
+    }
+
+    .img-logo {
+        /* width: 200px; */
+        height: 50px;
+        float: left;
+        font-size: 70px;
+        color: #fdfcfa;
+        font-weight: bold;
+        padding-bottom: 0px;
+    }
+
+    .banner_section {
+        width: 100%;
+        float: left;
+        background-image: url(../images/banner-bg-2.png);
+        height: auto;
+        background-size: 100%;
+        padding: 0px 0px 0px 0px;
+        background-repeat: no-repeat;
+    }
 }
