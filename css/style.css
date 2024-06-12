@@ -160,6 +160,54 @@ img {
     outline: 0;
 }
 
+/* dropdown menu switch language */
+.dropbtn {
+    padding: 0;
+    /* font-size: 16px; */
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    /* font-size: 24px; */
+    vertical-align: middle;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.a-language {
+    color: black;
+    padding: 10px 10px;
+    display: block;
+    font-size: 1rem;
+}
+
+.a-language:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    left: -70%;
+}
+
+.a-language {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+
 .paddind_bottom_0 {
     padding-bottom: 0 !important;
 }
@@ -796,6 +844,7 @@ a:hover {
     text-indent: -999px;
     background-color: #252525;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .carousel-indicators {

@@ -52,24 +52,43 @@
             </div>
             <div class="collapse navbar-collapse" id="navbarNav">
                <ul class="navbar-nav ml-auto">
-                  <li class="nav-item active">
-                     <a class="nav-link" href="#">Home</a>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#" data-i18n="navbar_home"></a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#about">About</a>
+                     <a class="nav-link" href="#about" data-i18n="navbar_about"></a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#produk">Product</a>
+                     <a class="nav-link" href="#produk" data-i18n="navbar_product"></a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#services">Social media</a>
+                     <a class="nav-link" href="#services" data-i18n="navbar_medsos"></a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#contact">Contact</a>
+                     <a class="nav-link" href="#contact" data-i18n="navbar_contact"></a>
                   </li>
                   <!-- <li class="nav-item">
                      <a class="nav-link" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
                   </li> -->
+                  <li class="nav-item">
+                     <a class="nav-link">
+                        <div class="dropdown">
+                           <div class="dropbtn">
+                              <img
+                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/1200px-Flag_of_the_United_Kingdom_%281-2%29.svg.png"
+                                 style="width: 30px; height: 20px;" />
+                           </div>
+                           <div class="dropdown-content">
+                              <span class="a-language" data-lang="en" href="#"><img
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/1200px-Flag_of_the_United_Kingdom_%281-2%29.svg.png"
+                                    style="width: 30px; height: 20px; margin-right: 0.5rem;" />EN</span>
+                              <span class="a-language" data-lang="id" href="#"><img
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/2560px-Flag_of_Indonesia.svg.png"
+                                    style="width: 30px; height: 20px; margin-right: 0.5rem;" />ID</span>
+                           </div>
+                        </div>
+                     </a>
+                  </li>
                </ul>
             </div>
          </nav>
@@ -85,53 +104,16 @@
                   <div class="row">
                      <div class="col-sm-12">
                         <div class="banner_taital">
-                           <h1 class="outstanding_text">Robusta coffee</h1>
+                           <h1 class="outstanding_text" data-i18n="home_title"></h1>
                            <h1 class="coffee_text">Balipowdercoffee</h1>
-                           <p class="there_text">Selected robusta coffee from the Pedawe Village plantation, Bali. This
-                              coffee
-                              processed traditionally, produces a distinctive strong and bitter taste. Grown
-                              At an altitude of 400-800 meters with an average temperature of 26ºC, Robusta coffee is
-                              often
-                              used in various drinks such as cappuccinos, lattes, and macchiatos, or consumed
-                              direct.</p>
-                           <div class="learnmore_bt"><a href="#produk">View Products</a></div>
+                           <p class="there_text" data-i18n="home_desc"></p>
+                           <div class="learnmore_bt"><a href="#produk" data-i18n="home_view_product">View Products</a>
+                           </div>
                         </div>
                      </div>
                   </div>
                </div>
-               <!-- <div class="carousel-item">
-                  <div class="row">
-                     <div class="col-sm-12">
-                        <div class="banner_taital">
-                           <h1 class="outstanding_text">Kopi robusta </h1>
-                           <h1 class="coffee_text">Balipowdercoffee</h1>
-                           <p class="there_text">There are many variations of passages of Lorem Ipsum available, but the
-                              majority have suffered alteration in some form, by injected humour, </p>
-                           <div class="learnmore_bt"><a href="#">Learn More</a></div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="row">
-                     <div class="col-sm-12">
-                        <div class="banner_taital">
-                           <h1 class="outstanding_text">Kopi robusta </h1>
-                           <h1 class="coffee_text">Balipowdercoffee</h1>
-                           <p class="there_text">There are many variations of passages of Lorem Ipsum available, but the
-                              majority have suffered alteration in some form, by injected humour, </p>
-                           <div class="learnmore_bt"><a href="#">Learn More</a></div>
-                        </div>
-                     </div>
-                  </div>
-               </div> -->
             </div>
-            <!-- <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
-               <i class="fa fa-angle-left"></i>
-            </a>
-            <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
-               <i class="fa fa-angle-right"></i>
-            </a> -->
          </div>
       </div>
    </div>
@@ -142,15 +124,9 @@
          <div class="row">
             <div class="col-md-6">
                <div class="about_taital_main" id="about">
-                  <div class="about_taital">About Us</div>
-                  <p class="about_text">Balipowdercoffee is robusta coffee from the Pedawe Village plantation, Bali,
-                     which
-                     processed traditionally, produces a strong and bitter taste. Grown at height
-                     400-800 meters with an average temperature of 26ºC, this coffee is often used in drinks such as
-                     cappuccino, latte, and macchiato, or drink it straight. Consume balipowdercoffee in quantity
-                     natural can help prevent nerve damage and brain inflammation, and is associated with
-                     Parkinson's prevention.</p>
-                  <div class="read_bt"><a href="#benefits">See detailed benefits</a></div>
+                  <div class="about_taital" data-i18n="about_us"></div>
+                  <p class="about_text" data-i18n="about_desc"></p>
+                  <div class="read_bt"><a href="#benefits" data-i18n="about_detail_benefits"></a></div>
                </div>
             </div>
             <div class="col-md-6 mb-5">
@@ -165,9 +141,8 @@
       <div class="container">
          <div class="row">
             <div class="col-sm-12">
-               <h1 class="client_taital">Benefits of Balipowdercoffee</h1>
-               <p class="client_text">Consuming robusta coffee has good health benefits. Even more
-                  if you often enjoy robusta coffee.</p>
+               <h1 class="client_taital" data-i18n="benefits_coffee"></h1>
+               <p class="client_text" data-i18n="benefits_desc"></p>
             </div>
          </div>
       </div>
@@ -187,15 +162,9 @@
                      <div class="row">
                         <div class="col-md-12">
                            <div class="testimonial_section_2">
-                              <h4 class="client_name_text">Inhibits Premature Aging <span class="quick_icon"><img
+                              <h4 class="client_name_text" data-i18n="benefit_1_title"> <span class="quick_icon"><img
                                        src="images/quick-icon.png"></span></h4>
-                              <p class="customer_text">The first health benefit of Robusta Coffee is that it can
-                                 inhibits premature aging. Seriously, who doesn't want to look youthful? Of course
-                                 Everyone wants to look young even though they are no longer young. However, research
-                                 from
-                                 Experts have proven that drinking 2-3 coffees every day can prevent it
-                                 premature aging process by 10% when compared to people who do not
-                                 consume it.</p>
+                              <p class="customer_text" data-i18n="benefit_1_desc"></p>
                            </div>
                         </div>
                      </div>
@@ -208,14 +177,9 @@
                      <div class="row">
                         <div class="col-md-12">
                            <div class="testimonial_section_2">
-                              <h4 class="client_name_text">Reduces Cancer Risk <span class="quick_icon"><img
+                              <h4 class="client_name_text" data-i18n="benefit_2_title"> <span class="quick_icon"><img
                                        src="images/quick-icon.png"></span></h4>
-                              <p class="customer_text">The second benefit of robusta coffee for health is reducing
-                                 cancer risk. Drinking coffee every day can reduce the risk of prostate cancer,
-                                 lungs, breasts and pancreas. Research shows that coffee contains acids
-                                 antioxidants that protect the body from cancer and other diseases. Study with 67
-                                 thousand women who consume 4 cups of coffee a day shows that 25% of them
-                                 avoid the risk of cancer.</p>
+                              <p class="customer_text" data-i18n="benefit_2_desc"></p>
                            </div>
                         </div>
                      </div>
@@ -228,36 +192,9 @@
                      <div class="row">
                         <div class="col-md-12">
                            <div class="testimonial_section_2">
-                              <h4 class="client_name_text">Reduces the Risk of Heart Disease and Heart Attack <span
-                                    class="quick_icon"><img src="images/quick-icon.png"></span></h4>
-                              <p class="customer_text">The third health benefit of Robusta Coffee is that it can
-                                 reduces the risk of heart disease. Consuming a cup of coffee every day can
-                                 reduces the risk of heart disease due to its cardiovascular protective properties
-                                 inside the body. A result of research shows that as many as 41 thousand women
-                                 Those who consume coffee every day have been shown to avoid the risk of heart failure.
-                                 The same results were also shown by men.
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="carousel-item">
-               <div class="client_section_2">
-                  <div class="container">
-                     <div class="row">
-                        <div class="col-md-12">
-                           <div class="testimonial_section_2">
-                              <h4 class="client_name_text">Improves Blood Vessel Health<span class="quick_icon"><img
+                              <h4 class="client_name_text" data-i18n="benefit_3_title"> <span class="quick_icon"><img
                                        src="images/quick-icon.png"></span></h4>
-                              <p class="customer_text">Do you know? The caffeine contained in coffee can increase
-                                 blood vessel health. by the presence of nitric oxide content in the endothelium
-                                 able to strengthen the muscular system. The caffeine in coffee can raise blood
-                                 pressure, however
-                                 in this case it only occurs in a relatively short time "short-term". After
-                                 After caffeine is processed in the body, blood pressure will return to normal.
-                              </p>
+                              <p class="customer_text" data-i18n="benefit_3_desc"></p>
                            </div>
                         </div>
                      </div>
@@ -270,15 +207,9 @@
                      <div class="row">
                         <div class="col-md-12">
                            <div class="testimonial_section_2">
-                              <h4 class="client_name_text">Reduces Bad Cholesterol in the Body<span
-                                    class="quick_icon"><img src="images/quick-icon.png"></span></h4>
-                              <p class="customer_text">The last health benefit of Robusta Coffee is that it is capable
-                                 reduces bad cholesterol. The antioxidants contained in coffee can increase
-                                 good cholesterol or HDL levels in the body. Apart from that, it can also reduce risks
-                                 inflammation that can lead to a heart attack. In a case study, para
-                                 Coffee lovers are asked to increase their coffee consumption from the usual 8 cups
-                                 everyday.
-                              </p>
+                              <h4 class="client_name_text" data-i18n="benefit_4_title"><span class="quick_icon"><img
+                                       src="images/quick-icon.png"></span></h4>
+                              <p class="customer_text" data-i18n="benefit_4_desc"></p>
                            </div>
                         </div>
                      </div>
@@ -291,15 +222,25 @@
                      <div class="row">
                         <div class="col-md-12">
                            <div class="testimonial_section_2">
-                              <h4 class="client_name_text">Increases the ratio of bad cholesterol (LDL) and good
-                                 cholesterol
-                                 (HDL) as much as 8%.<span class="quick_icon"><img src="images/quick-icon.png"></span>
+                              <h4 class="client_name_text" data-i18n="benefit_5_title"><span class="quick_icon"><img
+                                       src="images/quick-icon.png"></span></h4>
+                              <p class="customer_text" data-i18n="benefit_5_desc"></p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="client_section_2">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-md-12">
+                           <div class="testimonial_section_2">
+                              <h4 class="client_name_text" data-i18n="benefit_6_title"><span class="quick_icon"><img
+                                       src="images/quick-icon.png"></span>
                               </h4>
-                              <p class="customer_text">Of course, there are health benefits of Robusta Coffee
-                                 felt when accompanied by a healthy lifestyle too. Don't be misled,
-                                 If after drinking coffee continuously you can immediately get good health
-                                 desired.
-                              </p>
+                              <p class="customer_text" data-i18n="benefit_6_desc"></p>
                            </div>
                         </div>
                      </div>
@@ -314,8 +255,8 @@
       <div class="container">
          <div class="row">
             <div class="col-sm-12">
-               <h1 class="gallery_taital">Our product</h1>
-               <p class="gallery_text">Following are the details of our products</p>
+               <h1 class="gallery_taital" data-i18n="product_our"></h1>
+               <p class="gallery_text" data-i18n="product_desc"></p>
             </div>
          </div>
          <div class="">
@@ -349,10 +290,10 @@
             </div>
             <div class="gallery_section_2">
                <!-- <h1 class="gallery_taital">Produk kami</h1> -->
-               <p class="gallery_text_harga">Get it for S$9.00 per pack</p>
+               <p class="gallery_text_harga" data-i18n="product_get"></p>
             </div>
          </div>
-         <div class="seemore_bt"><a href="https://wa.me/+6285738366962">Order now</a></div>
+         <div class="seemore_bt"><a href="https://wa.me/+6285738366962" data-i18n="product_order"></a></div>
       </div>
    </div>
    <!-- gallery section end -->
@@ -361,8 +302,8 @@
       <div class="container">
          <div class="row">
             <div class="col-sm-12">
-               <h1 class="services_taital">Social media</h1>
-               <p class="services_text">See About Us updates via social media</p>
+               <h1 class="services_taital" data-i18n="sosmed_title"></h1>
+               <p class="services_text" data-i18n="sosmed_desc"></p>
             </div>
          </div>
          <div class="services_section_2">
@@ -425,7 +366,7 @@
    <!-- contact section start -->
    <div class="contact_section layout_padding" id="contact">
       <div class="container">
-         <h1 class="contact_text">Contact Us</h1>
+         <h1 class="contact_text" data-i18n="contact_us"></h1>
       </div>
    </div>
    <div class="contact_section_2 layout_padding">
@@ -434,21 +375,39 @@
             <div class="col-md-6 padding_0">
                <div class="mail_section">
                   <div class="email_text">
-                     <div class="form-group">
-                        <input type="text" class="email-bt" placeholder="Name" name="Name" id="name-field">
+                     <div id="form_en">
+                        <div class="form-group">
+                           <input type="text" class="email-bt" placeholder="Name" name="Name" id="name-field">
+                        </div>
+                        <div class="form-group">
+                           <input type="text" class="email-bt" placeholder="Email" name="Email" id="email-field">
+                        </div>
+                        <div class="form-group">
+                           <input type="text" class="email-bt" placeholder="Subject" name="Subject" id="subject-field">
+                        </div>
+                        <div class="form-group">
+                           <textarea class="massage-bt" placeholder="Massage" rows="5" id="message-field"
+                              name="Massage"></textarea>
+                        </div>
                      </div>
-                     <div class="form-group">
-                        <input type="text" class="email-bt" placeholder="Email" name="Email" id="email-field">
-                     </div>
-                     <div class="form-group">
-                        <input type="text" class="email-bt" placeholder="Subject" name="Subject" id="subject-field">
-                     </div>
-                     <div class="form-group">
-                        <textarea class="massage-bt" placeholder="Massage" rows="5" id="message-field"
-                           name="Massage"></textarea>
+                     <div id="form_id">
+                        <div class="form-group">
+                           <input type="text" class="email-bt" placeholder="Nama" name="Name" id="name-field">
+                        </div>
+                        <div class="form-group">
+                           <input type="text" class="email-bt" placeholder="Email" name="Email" id="email-field">
+                        </div>
+                        <div class="form-group">
+                           <input type="text" class="email-bt" placeholder="Subjek" name="Subject" id="subject-field">
+                        </div>
+                        <div class="form-group">
+                           <textarea class="massage-bt" placeholder="Pesan" rows="5" id="message-field"
+                              name="Massage"></textarea>
+                        </div>
                      </div>
                      <div class="send_btn">
-                        <div id="whatsapp-button" type="text" class="main_bt"><a href="#">SEND</a></div>
+                        <div id="whatsapp-button" type="text" class="main_bt"><a href="#" data-i18n="form_send"></a>
+                        </div>
                      </div>
                   </div>
                </div>
@@ -469,13 +428,10 @@
       <div class="container">
          <div class="row">
             <div class="col-lg-3 col-sm-6">
-               <h3 class="useful_text">About</h3>
-               <p class="footer_text">Balipowdercoffee is a selection of robusta coffee from the Pedawe Village
-                  plantation, Bali.
-                  This coffee is processed
-                  traditional, produces a distinctive strong and bitter taste.</p>
+               <h3 class="useful_text" data-i18n="footer_about"></h3>
+               <p class="footer_text" data-i18n="footer_about_desc"></p>
             </div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-2 col-sm-6">
                <!-- <h3 class="useful_text">Menu</h3>
                <div class="footer_menu">
                   <ul>
@@ -487,40 +443,52 @@
                   </ul>
                </div> -->
             </div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-2 col-sm-4">
                <h1 class="useful_text">Menu</h1>
                <!-- <p class="dummy_text">Adipiscing Elit, sed do Eiusmod Tempor incididunt </p> -->
                <div class="footer_menu">
                   <ul>
-                     <li><a href="#">Home</a></li>
-                     <li><a href="#about">About Us</a></li>
-                     <li><a href="#produk">Product</a></li>
-                     <li><a href="#services">Social media</a></li>
-                     <li><a href="#contact">Contact</a></li>
+                     <li><a href="#" data-i18n="navbar_home"></a></li>
+                     <li><a href="#about" data-i18n="navbar_about"></a></li>
+                     <li><a href="#produk" data-i18n="navbar_medsos"></a></li>
+                     <li><a href="#services" data-i18n="navbar_medsos"></a></li>
+                     <li><a href="#contact" data-i18n="navbar_contact"></a></li>
                   </ul>
                </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
-               <h1 class="useful_text">Contact Us</h1>
+            <div class="col-lg-1 col-sm-6">
+               <!-- <h3 class="useful_text">Menu</h3>
+               <div class="footer_menu">
+                  <ul>
+                     <li><a href="#">Home</a></li>
+                     <li><a href="#about">About Us</a></li>
+                     <li><a href="#produk">Gallery</a></li>
+                     <li><a href="#services">Services</a></li>
+                     <li><a href="#contact">Contact Us</a></li>
+                  </ul>
+               </div> -->
+            </div>
+            <div class="col-lg-4 col-sm-6">
+               <h1 class="useful_text" data-i18n="contact_us"></h1>
                <div class="location_text">
                   <ul>
                      <li>
-                        <a href="#">
-                           <i class="fa fa-map-marker" aria-hidden="true"></i><span class="padding_left_10">Address :
-                              Jalan arjuna 2D perumahan krisna graha penarungan, Singaraja, Bali</span>
-                        </a>
+                        <div>
+                           <i class="fa fa-map-marker" aria-hidden="true"></i><span class="padding_left_10"
+                              data-i18n="footer_address"></span>
+                        </div>
                      </li>
                      <li>
-                        <a href="#">
-                           <i class="fa fa-phone" aria-hidden="true"></i><span class="padding_left_10">Call :
-                              089898989898</span>
-                        </a>
+                        <div>
+                           <i class="fa fa-phone" aria-hidden="true"></i><span class="padding_left_10"
+                              data-i18n="footer_call"></span>
+                        </div>
                      </li>
                      <li>
-                        <a href="#">
-                           <i class="fa fa-envelope" aria-hidden="true"></i><span class="padding_left_10">Email :
-                              balipowdercoffee@gmail.com</span>
-                        </a>
+                        <div>
+                           <i class="fa fa-envelope" aria-hidden="true"></i><span class="padding_left_10"
+                              data-i18n="footer_email"></span>
+                        </div>
                      </li>
                   </ul>
                </div>
@@ -532,10 +500,13 @@
    <!-- copyright section start -->
    <div class="copyright_section">
       <div class="container">
-         <p class="copyright_text">Balipowdercoffee 2024. Develop by <a href="https://kadekwidiana.site">Widi</a></p>
+         <p class="copyright_text">Balipowdercoffee 2024. Develop by <a
+               href="https://kadekwidiana.site"><strong>kadekwidiana.site</strong></a></p>
       </div>
    </div>
    <!-- copyright section end -->
+   <!-- multilanguage js -->
+   <script src="js/multilanguage.js"></script>
    <!-- Javascript files-->
    <script src="js/jquery.min.js"></script>
    <script src="js/popper.min.js"></script>
